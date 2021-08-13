@@ -80,3 +80,4 @@ Route::get('login',[HomeController::class, 'login']);
 // Route::get('mpage',[HomeController::class, 'mpage1']);
 
 Route::get('employees',[HomeController::class, 'employees']);
+Route::get('employeelist',[HomeController::class, 'employeelist']);
